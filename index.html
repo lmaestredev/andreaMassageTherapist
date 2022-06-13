@@ -12,31 +12,40 @@
 </head>
 <body>
 
-    <header class="pt-2">
-        <nav class="d-flex justify-content-between p-2 px-3">
-            <div class="logo-navbar-container">
-                <img src="./assets/logos/logo-wo-bg-white.png" alt="logo" class="w-100">
-            </div>
-
-            <button class="btn btn-menu" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-list"></i></button>
-        </nav>
-        <div>
-            <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
-
-                <div class="offcanvas-header justify-content-center">
-                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x"></i></button>
-                    <div class="logo-offcanvas">
-                        <img src="./assets/logos/logo-wo-bg.png" alt="logo" class="w-100">
-                    </div>
+    <header>
+        <div class="pt-2">
+            <nav class="d-flex justify-content-between p-2 px-3">
+                <div class="logo-navbar-container">
+                    <img src="./assets/logos/logo-wo-bg-white.png" alt="logo" class="w-100">
                 </div>
+    
+                <button class="btn btn-menu d-md-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop"><i class="bi bi-list"></i></button>
 
-                <div class="offcanvas-body">
-                    <span class="d-flex flex-column align-items-center justify-content-around">
-                        <a href="#" class="navbar-item py-2 px-1">Home</a>
-                        <a href="#" class="navbar-item py-2 px-1">Massage Techniques</a>
-                        <a href="#" class="navbar-item py-2 px-1">Price List</a>
-                        <a href="#" class="navbar-item py-2 px-1">About</a>
-                    </span>
+                <nav class="d-none d-md-flex">
+                    <a href="#" class="navbar-item py-2 px-1 me-4">Home</a>
+                    <a href="#" class="navbar-item py-2 px-1 me-4">Massage Techniques</a>
+                    <a href="#" class="navbar-item py-2 px-1 me-4">Price List</a>
+                    <a href="#" class="navbar-item py-2 px-1 me-4">About</a>
+                </nav>
+            </nav>
+            <div>
+                <div class="offcanvas offcanvas-end w-75" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+    
+                    <div class="offcanvas-header justify-content-center">
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"><i class="bi bi-x"></i></button>
+                        <div class="logo-offcanvas">
+                            <img src="./assets/logos/logo-wo-bg.png" alt="logo" class="w-100">
+                        </div>
+                    </div>
+    
+                    <div class="offcanvas-body">
+                        <span class="d-flex flex-column align-items-center justify-content-around">
+                            <a href="#" class="navbar-item py-2 px-1">Home</a>
+                            <a href="#" class="navbar-item py-2 px-1">Massage Techniques</a>
+                            <a href="#" class="navbar-item py-2 px-1">Price List</a>
+                            <a href="#" class="navbar-item py-2 px-1">About</a>
+                        </span>
+                    </div>
                 </div>
             </div>
         </div>
