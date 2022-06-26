@@ -191,6 +191,11 @@ nav{
       
         font-size: 1.3rem;
         line-height: 1.3rem;
+        border-bottom: 1px solid transparent;
+
+        &:hover{
+            border-bottom: 1px solid $trebol;
+        }
     }
 
     .quote{

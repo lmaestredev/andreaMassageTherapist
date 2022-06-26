@@ -1,0 +1,34 @@
+.sectionTitle{
+    font-size: 1.8rem;
+    line-height:2rem;
+    color:$black;
+    text-align: center;
+    margin-top:20px;
+
+ 
+
+
+}
+
+.sectionTitleContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.point{
+    width: 10px ;
+    height: 10px;
+    background:$trebol;
+    border-radius:100%;
+    margin-right: 20px;
+}
+
+@media screen and(min-width: 968px) {
+    .sectionTitle{
+        font-size: 2.2rem;
+        line-height:2rem;
+        margin-top: 40px;
+    }
+    
+}
