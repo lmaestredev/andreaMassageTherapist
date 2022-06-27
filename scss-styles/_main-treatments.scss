@@ -7,6 +7,7 @@ main{
         justify-content: center;
         row-gap: 40px;
         column-gap: 40px;
+        min-height: 100vh;
     }
 
     .treatment{
@@ -21,8 +22,10 @@ main{
         box-shadow: 10px -5px  $trebol , 2px 2px 5px rgba(0, 0, 0, 0.2);
         padding:  10px;
         border-radius: 5px;
-        background-image: radial-gradient(circle at -19.64% 37.72%, #c6ffff 0, #baffff 12.5%, #afffff 25%, #a6fffb 37.5%, #9ee7e7 50%, #97cdd1 62.5%, #91b7bc 75%, #8ba4a9 87.5%, #869498 100%);
+        // background-image: radial-gradient(circle at -19.64% 37.72%, #c6ffff 0, #baffff 12.5%, #afffff 25%, #a6fffb 37.5%, #9ee7e7 50%, #97cdd1 62.5%, #91b7bc 75%, #8ba4a9 87.5%, #869498 100%);
         border: 2px solid $white;
+        background: rgba(255,255,255,0.5);
+
         
 
 
@@ -52,7 +55,6 @@ main{
                 border-radius: 5px;
                 margin-top: 20px;
                 display: block;
-                // filter: brightness(70%);
                 position:relative;
          
                
@@ -86,6 +88,7 @@ main{
         width: 100%;  
         padding:  35px 25px;
         height: inherit;
+          max-width: 45%;
 
     
             .treatment-title{
@@ -113,7 +116,7 @@ main{
      
     
         .treatment{
-        max-width: 45%;
+      
         padding: 20px;
             height: inherit;
     

@@ -6,13 +6,19 @@
     margin-top:20px;
     padding-bottom: 5px;
     border-bottom: 2px solid $trebol;
-    animation-name:fadeInLeft;
+    animation-name:fadeInDown ,opacity;
     animation-iteration-count:initial;
     animation-duration:0.9s;
     
  
 
 
+}
+
+.darkenDiv{
+    min-height: 100vh;
+    width: 100%;
+    background-color: #00000063;
 }
 
 .left{
@@ -28,13 +34,18 @@
 .sectionTitleContainer{
     display: flex;
     align-items: center;
+    img{
+        animation-name:fadeInLeft , opacity;
+        animation-iteration-count:initial;
+        animation-duration:0.9s;
+    }
   
 }
 
 .point{
     width: 10px ;
     height: 10px;
-    background:$white;
+    background:$trebol;
     border-radius:100%;
     margin-right: 20px;
 }
