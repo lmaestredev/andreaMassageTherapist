@@ -1,8 +1,12 @@
 main{
 
     .treatments{
-        margin-top:30px;
         padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        row-gap: 40px;
+        column-gap: 40px;
     }
 
     .treatment{
@@ -11,6 +15,9 @@ main{
         align-items: center;
         flex-direction: column;
         overflow: hidden;
+        max-width: 300px;
+        height:min-content;
+
 
         .treatment-title{
             font-size: 1.6rem;
@@ -38,6 +45,7 @@ main{
                 max-height: 450px;
                 border-radius: 5px;
                 margin-top: 20px;
+
             }
 
             .description{
@@ -56,11 +64,14 @@ main{
 
         .treatments{
             padding: 20px;
+            row-gap: 40px;
+            column-gap: 60px;
         }
        
     
         .treatment{
-          
+        max-width: 500px;
+        width: 100%;  
     
             .treatment-title{
                 font-size: 1.8rem;
@@ -79,9 +90,9 @@ main{
        
     
         .treatment{
-            margin-top:50px;
+        max-width: 400px;
            
-
+         
     
     
             .treatmentContent{
@@ -92,9 +103,7 @@ main{
                     margin-top:40px;
                 }
 
-                .img{
-                    max-height: 550px;
-                }
+               
 
 
             }
