@@ -1,7 +1,7 @@
 main{
 
     .treatments{
-        padding: 10px;
+        padding: 0px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -15,8 +15,15 @@ main{
         align-items: center;
         flex-direction: column;
         overflow: hidden;
-        max-width: 300px;
+        // min-width: 100%;
+        max-width: 400px;
         height:min-content;
+        box-shadow: 10px -5px  $trebol , 2px 2px 5px rgba(0, 0, 0, 0.2);
+        padding:  10px;
+        border-radius: 5px;
+        background-image: radial-gradient(circle at -19.64% 37.72%, #c6ffff 0, #baffff 12.5%, #afffff 25%, #a6fffb 37.5%, #9ee7e7 50%, #97cdd1 62.5%, #91b7bc 75%, #8ba4a9 87.5%, #869498 100%);
+        border: 2px solid $white;
+        
 
 
         .treatment-title{
@@ -27,7 +34,7 @@ main{
             text-align: left;
             width: 100%;
             font-style: italic;
-            border-bottom: 4px solid $trebol;
+            border-bottom: 4px solid $white;
             padding-bottom: 10px;
             display: flex;
             align-items: center;
@@ -40,11 +47,15 @@ main{
             .img{
                 width: 100%;
                 height: 100%;
-                object-fit: cover;
-                vertical-align:top;
+                object-fit: fill;
                 max-height: 450px;
                 border-radius: 5px;
                 margin-top: 20px;
+                display: block;
+                filter: brightness(70%);
+                position:relative;
+         
+               
 
             }
 
@@ -57,6 +68,8 @@ main{
             }
         }
     }
+
+
 }
 
 @media screen and (min-width: 968px){
@@ -70,8 +83,10 @@ main{
        
     
         .treatment{
-        max-width: 500px;
         width: 100%;  
+        padding:  35px 25px;
+        height: inherit;
+
     
             .treatment-title{
                 font-size: 1.8rem;
@@ -83,16 +98,24 @@ main{
     
         
         }
+        .lastsTreatment{
+            max-width: 50%;
+            .lastsTreatmentContent{
+                img{
+                    min-width: 50%;
+                }
+            }
+        }
     }
 }
 @media screen and (min-width: 768px){
     main{
-       
+     
     
         .treatment{
-        max-width: 400px;
-           
-         
+        max-width: 45%;
+        padding: 20px;
+            height: inherit;
     
     
             .treatmentContent{
@@ -106,6 +129,17 @@ main{
                
 
 
+            }
+        }
+
+        .lastsTreatment{
+            max-width: 80%;
+            .lastsTreatmentContent{
+                display: flex;
+                justify-content: space-between;
+                img{
+                    min-width: 50%;
+                }
             }
         }
     }

@@ -21,10 +21,12 @@
             img{
                 width: 300px;
                 height: 300px;
-                border-radius: 100%;
+                border-radius: 5px;
                 // box-shadow: 5px 5px 5px rgba($color: $black, $alpha: 0.4);
-                box-shadow: 10px 5px  $trebol;
-                margin-top:20px
+                box-shadow: 5px -5px  $trebol;
+                margin-top:20px;
+                filter: brightness(70%);
+
             }
 
          
@@ -58,8 +60,10 @@
                 img{
                     width: 400px;
                     height: 400px;
-                    border-radius: 100%;
                     margin-top: -40px;
+                box-shadow: 20px -11px  $trebol;
+                    
+
 
                 }
     
