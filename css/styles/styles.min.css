@@ -133,6 +133,11 @@ main .treatments {
   min-height: 100vh;
 }
 
+main .treatments .treboLogo {
+  position: relative;
+  top: 30px;
+}
+
 main .treatment {
   margin-top: 50px;
   display: flex;
