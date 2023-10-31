@@ -1,12 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,300;0,400;0,600;1,300&display=swap");
-@-webkit-keyframes fadeInBack {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 @keyframes fadeInBack {
   0% {
     transform: scale(0);
@@ -15,25 +7,9 @@
     transform: scale(1);
   }
 }
-@-webkit-keyframes fadeInLeft {
-  0% {
-    transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
 @keyframes fadeInLeft {
   0% {
     transform: translateX(-100%);
-  }
-  100% {
-    transform: translateX(0);
-  }
-}
-@-webkit-keyframes fadeInLeftShort {
-  0% {
-    transform: translateX(-100px);
   }
   100% {
     transform: translateX(0);
@@ -47,28 +23,12 @@
     transform: translateX(0);
   }
 }
-@-webkit-keyframes fadeInDown {
-  0% {
-    transform: translateY(110px);
-  }
-  100% {
-    transform: translateY(0);
-  }
-}
 @keyframes fadeInDown {
   0% {
     transform: translateY(110px);
   }
   100% {
     transform: translateY(0);
-  }
-}
-@-webkit-keyframes opacity {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
   }
 }
 @keyframes opacity {
@@ -79,14 +39,6 @@
     opacity: 1;
   }
 }
-@-webkit-keyframes negativeOpacity {
-  0% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
 @keyframes negativeOpacity {
   0% {
     opacity: 1;
@@ -95,28 +47,12 @@
     opacity: 0;
   }
 }
-@-webkit-keyframes grow {
-  0% {
-    transform: scale(0);
-  }
-  100% {
-    transform: scale(1);
-  }
-}
 @keyframes grow {
   0% {
     transform: scale(0);
   }
   100% {
     transform: scale(1);
-  }
-}
-@-webkit-keyframes closeModal {
-  0% {
-    transform: scale(1);
-  }
-  100% {
-    transform: scale(0);
   }
 }
 @keyframes closeModal {
@@ -174,12 +110,9 @@ a {
   margin-top: 20px;
   padding-bottom: 5px;
   border-bottom: 2px solid #9ee7e7;
-  -webkit-animation-name: fadeInDown, opacity;
-          animation-name: fadeInDown, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
+  animation-name: fadeInDown, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.9s;
 }
 
 .centered {
@@ -198,12 +131,9 @@ a {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   font-style: italic;
   font-weight: bold;
-  -webkit-animation-name: fadeInDown, opacity;
-          animation-name: fadeInDown, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-name: fadeInDown, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.8s;
   transition: 0.3s ease all;
 }
 .bookingBtn:hover {
@@ -234,12 +164,9 @@ a {
   align-items: center;
 }
 .sectionTitleContainer img {
-  -webkit-animation-name: fadeInLeft, opacity;
-          animation-name: fadeInLeft, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.9s;
-          animation-duration: 0.9s;
+  animation-name: fadeInLeft, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.9s;
 }
 
 .point {
@@ -283,7 +210,6 @@ main .treatment {
   flex-direction: column;
   overflow: hidden;
   max-width: 400px;
-  height: -webkit-min-content;
   height: -moz-min-content;
   height: min-content;
   box-shadow: 10px -5px #9ee7e7, 2px 2px 5px rgba(0, 0, 0, 0.2);
@@ -373,7 +299,7 @@ main .treatment .treatmentContent .description {
   }
 }
 header {
-  height: 100vh;
+  height: 90vh;
   background: #16183b;
   padding-top: 20px;
 }
@@ -452,12 +378,9 @@ header .menu ul li a {
   font-weight: 600;
   color: #F6f2ef;
   letter-spacing: 2px;
-  -webkit-animation-name: fadeInLeftShort, opacity;
-          animation-name: fadeInLeftShort, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-name: fadeInLeftShort, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.8s;
   text-shadow: 2px 2px 5px #000;
   text-align: center;
   display: block;
@@ -504,12 +427,9 @@ header .bookingBtn {
   box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
   font-style: italic;
   font-weight: bold;
-  -webkit-animation-name: fadeInDown, opacity;
-          animation-name: fadeInDown, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-name: fadeInDown, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.8s;
 }
 header .quote {
   font-size: 2rem;
@@ -520,12 +440,9 @@ header .quote {
   padding: 10px;
   font-style: italic;
   font-weight: bold;
-  -webkit-animation-name: fadeInDown, opacity;
-          animation-name: fadeInDown, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
+  animation-name: fadeInDown, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.8s;
   max-width: 1200px;
 }
 
@@ -643,138 +560,6 @@ header .quote {
 @media screen and (min-width: 768px) {
   .about .content .profilePicture img {
     box-shadow: 10px -11px #9ee7e7;
-  }
-}
-.refer {
-  margin-top: 100px;
-  min-height: 100vh;
-  background: #fff;
-  min-height: 100vh;
-  width: 100%;
-  border-bottom: 10px solid #9ee7e7;
-  border-top: 10px solid #9ee7e7;
-  background: rgba(246, 242, 239, 0.2);
-}
-.refer .logoRefer {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-}
-.refer .content {
-  width: 100%;
-  height: 100%;
-  position: relative;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  -moz-column-gap: 40px;
-       column-gap: 40px;
-}
-.refer .content .description {
-  margin-top: 60px;
-  width: 100%;
-  font-size: 2rem;
-  line-height: 2rem;
-  color: #000;
-  width: 100%;
-  text-align: center;
-  padding: 10px;
-  font-style: italic;
-  font-weight: bold;
-  -webkit-animation-name: fadeInDown, opacity;
-          animation-name: fadeInDown, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.8s;
-          animation-duration: 0.8s;
-}
-.refer .content .description2 {
-  color: #9ee7e7;
-  font-size: 1.7rem;
-  line-height: 2rem;
-  margin-top: 10px;
-  background: #9ee7e7;
-  color: #000;
-  max-width: 600px;
-  margin: 10px auto;
-}
-.refer .content .banner {
-  min-height: 350px;
-  border-radius: 10px;
-  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.3);
-  margin-top: 40px;
-}
-.refer .content .descriptionBanner {
-  background: #fff;
-  width: 90%;
-  box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.1);
-  margin: 20px auto;
-  padding: 20px;
-  color: 0;
-  border-radius: 5px;
-  font-size: 1.2rem;
-  line-height: 1.2rem;
-  max-width: 600px;
-  font-weight: 400;
-  margin-top: 30px;
-  border: 4px solid #9ee7e7;
-}
-.refer .content .descriptionBanner .extraInfo {
-  font-weight: 600;
-  display: block;
-  margin-top: 10px;
-  padding-left: 20px;
-}
-.refer .bookingBtn {
-  margin: 20px auto;
-}
-
-@media screen and (min-width: 768px) {
-  .refer {
-    margin-top: 150px;
-  }
-  .refer .content {
-    -moz-column-gap: 60px;
-         column-gap: 60px;
-  }
-  .refer .content .description {
-    margin-top: 50px;
-  }
-  .refer .content .description2 {
-    margin-top: 0px;
-  }
-  .refer .content .banner {
-    width: 100%;
-    margin: 60px auto;
-    min-height: 450px;
-    max-width: 850px;
-  }
-}
-@media screen and (min-width: 768px) {
-  .refer {
-    margin-top: 150px;
-  }
-  .refer .content {
-    -moz-column-gap: 70px;
-         column-gap: 70px;
-  }
-  .refer .content .description {
-    font-size: 3rem;
-    line-height: 3rem;
-  }
-  .refer .content .description2 {
-    font-size: 2.3rem;
-    line-height: 2rem;
-  }
-  .refer .content .banner {
-    margin-top: 60px;
-  }
-  .refer .content .descriptionBanner {
-    border-radius: 5px;
-    font-size: 1.4rem;
-    line-height: 1.4rem;
   }
 }
 .prices {
@@ -966,21 +751,15 @@ header .quote {
   z-index: 2000;
   max-width: 800px;
   margin: 0px auto;
-  -webkit-animation-name: grow, opacity;
-          animation-name: grow, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  animation-name: grow, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.6s;
   flex-direction: column;
 }
 .modal .content.close {
-  -webkit-animation-name: negativeOpacity, closeModal;
-          animation-name: negativeOpacity, closeModal;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  animation-name: negativeOpacity, closeModal;
+  animation-iteration-count: initial;
+  animation-duration: 0.6s;
 }
 .modal .imageDescription {
   color: #fff;
@@ -1036,12 +815,9 @@ header .quote {
   min-width: 200px;
 }
 .modal .modalImg.left {
-  -webkit-animation-name: fadeInLeft, opacity;
-          animation-name: fadeInLeft, opacity;
-  -webkit-animation-iteration-count: initial;
-          animation-iteration-count: initial;
-  -webkit-animation-duration: 0.6s;
-          animation-duration: 0.6s;
+  animation-name: fadeInLeft, opacity;
+  animation-iteration-count: initial;
+  animation-duration: 0.6s;
 }
 
 footer .content {

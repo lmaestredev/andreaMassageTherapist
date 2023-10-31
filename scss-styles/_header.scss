@@ -2,8 +2,7 @@
 
 header{
     
-    height: 100vh;
-    // background: url('/assets/therapies/therapy-7.jpg');
+    height: 90vh;
     background: $darkBlue;
 
     padding-top: 20px;
@@ -186,7 +185,7 @@ z-index: 1;
 }
 
 
-@media screen and(min-width:968px){
+@media screen and (min-width:968px){
     header{
 
     
