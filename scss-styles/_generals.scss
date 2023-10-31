@@ -5,10 +5,35 @@
     font-family: 'Cormorant', serif;
 }
 body{
+    list-style: none;
+}
+html{
     scroll-behavior: smooth;
+
 }
 
 a{
     text-decoration: none;
     list-style: none;
+    color: black;
+}
+
+.mediumMap{
+    display:none;
+    margin-top: 40px;
+}
+.smallMap{
+    padding: 20px;
+    margin-top: 40px;
+
+
+}
+@media screen and(min-width: 968px){
+
+    .smallMap{
+        display:none
+    }
+    .mediumMap{
+        display:block
+    }
 }
